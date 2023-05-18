@@ -1,38 +1,55 @@
 .App {
-  text-align: center;
+    max-width: 100%;
+}
+.btn {
+    display: flex;
+    align-self: flex-start;
+    gap: 5px;
+    
+   
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+    background-color: rgb(181, 136, 223);
+    border: 1px;
+    border-radius: 10px;
+    
+    
+   
+}
+button:hover {
+    background-color: rgb(181, 136, 223);
+    color: wheat;
+}
+.image {
+    max-block-size: 125px;
+}
+.selected-product {
+    display:inline;
+       
+}
+.compareDiv {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top:10px;
+    
+    
+    
+    
+}
+body {
+    background-color: rgb(221, 218, 218);
+}
+.cheapest-product {
+    border-style:groove;
+    border-color: green;
+    width: 50%;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.class {
+    width: 100%;
+    height: 100%;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
